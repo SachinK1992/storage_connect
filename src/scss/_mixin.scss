@@ -1,0 +1,90 @@
+// =============================================================================
+// CUSTOM SCROLLBAR START
+// =============================================================================
+@mixin scrollbar {
+  ::-webkit-scrollbar-track {
+    background-color: $whiteColor;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: $mainColor;
+    border: 2px solid $whiteColor;
+  }
+}
+
+// =============================================================================
+// TRANSITION START
+// =============================================================================
+@mixin transition_01 {
+  -webkit-transition: 0.1s all ease-in-out !important;
+  -moz-transition: 0.1s all ease-in-out !important;
+  -ms-transition: 0.1s all ease-in-out !important;
+  -o-transition: 0.1s all ease-in-out !important;
+  transition: 0.1s all ease-in-out !important;
+}
+@mixin transition_02 {
+  -webkit-transition: 0.2s all ease-in-out !important;
+  -moz-transition: 0.2s all ease-in-out !important;
+  -ms-transition: 0.2s all ease-in-out !important;
+  -o-transition: 0.2s all ease-in-out !important;
+  transition: 0.2s all ease-in-out !important;
+}
+@mixin transition_03 {
+  -webkit-transition: 0.3s all ease-in-out !important;
+  -moz-transition: 0.3s all ease-in-out !important;
+  -ms-transition: 0.3s all ease-in-out !important;
+  -o-transition: 0.3s all ease-in-out !important;
+  transition: 0.3s all ease-in-out !important;
+}
+@mixin transition_04 {
+  -webkit-transition: 0.4s all ease-in-out !important;
+  -moz-transition: 0.4s all ease-in-out !important;
+  -ms-transition: 0.4s all ease-in-out !important;
+  -o-transition: 0.4s all ease-in-out !important;
+  transition: 0.4s all ease-in-out !important;
+}
+@mixin transition_05 {
+  -webkit-transition: 0.5s all ease-in-out !important;
+  -moz-transition: 0.5s all ease-in-out !important;
+  -ms-transition: 0.5s all ease-in-out !important;
+  -o-transition: 0.5s all ease-in-out !important;
+  transition: 0.5s all ease-in-out !important;
+}
+@mixin transition_06 {
+  -webkit-transition: 0.6s all ease-in-out !important;
+  -moz-transition: 0.6s all ease-in-out !important;
+  -ms-transition: 0.6s all ease-in-out !important;
+  -o-transition: 0.6s all ease-in-out !important;
+  transition: 0.6s all ease-in-out !important;
+}
+@mixin transition_07 {
+  -webkit-transition: 0.7s all ease-in-out !important;
+  -moz-transition: 0.7s all ease-in-out !important;
+  -ms-transition: 0.7s all ease-in-out !important;
+  -o-transition: 0.7s all ease-in-out !important;
+  transition: 0.7s all ease-in-out !important;
+}
+@mixin transition_08 {
+  -webkit-transition: 0.8s all ease-in-out !important;
+  -moz-transition: 0.8s all ease-in-out !important;
+  -ms-transition: 0.8s all ease-in-out !important;
+  -o-transition: 0.8s all ease-in-out !important;
+  transition: 0.8s all ease-in-out !important;
+}
+@mixin transition_09 {
+  -webkit-transition: 0.9s all ease-in-out !important;
+  -moz-transition: 0.9s all ease-in-out !important;
+  -ms-transition: 0.9s all ease-in-out !important;
+  -o-transition: 0.9s all ease-in-out !important;
+  transition: 0.9s all ease-in-out !important;
+}
+@mixin transition_1 {
+  -webkit-transition: 1s all ease-in-out !important;
+  -moz-transition: 1s all ease-in-out !important;
+  -ms-transition: 1s all ease-in-out !important;
+  -o-transition: 1s all ease-in-out !important;
+  transition: 1s all ease-in-out !important;
+}
